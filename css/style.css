@@ -100,20 +100,7 @@ button{
     padding: 0px 400px;
     background-color: rgba(0, 0, 0, 0.233);
 }
-.home-content-a h1 {
-    font-size: 70px;
-    color: antiquewhite;
-    background-color: rgba(39, 39, 39, 0.418);
-    justify-content: center;
-    align-items: center;
-    padding:310px  300px;
-    justify-content: center;
-    text-align: center;
-    padding-right: 330px;
-    
-    
-    
-}
+
 /* Content */
 .content-PNC{
     margin: 40px;
@@ -601,6 +588,22 @@ tr:nth-child(even):hover {
 
 /* Smartphones (portrait) ----------- */
 @media (min-width: 1280px) {
+    .home-content-a h1 {
+    font-size: 70px;
+    color: antiquewhite;
+    background-color: rgba(39, 39, 39, 0.418);
+    justify-content: center;
+    align-items: center;
+    padding:270px  300px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 330px;
+    padding-left: 380px;
+    padding-bottom: 80px;
+    
+    
+    
+    }
     .Contains,
     .header-blue {
        
