@@ -584,7 +584,9 @@ tr:nth-child(even):hover {
 .paragraph-sport{
     margin-bottom: 20px;
 }
-
+ .values-image{
+        width: 60%;
+    }
 
 /* Smartphones (portrait) ----------- */
 @media (min-width: 1280px) {
@@ -631,7 +633,6 @@ tr:nth-child(even):hover {
     }
 
     .image-values,
-    .card-values,
     .Canteen,
     .Sport,
     .Arobic,
@@ -656,7 +657,9 @@ tr:nth-child(even):hover {
         flex-wrap: wrap; 
     }
 
-    .values-image,
+    .values-image{
+        width: 60%;
+    }
     .image-sport,
     .image-Contact,
     .google,
