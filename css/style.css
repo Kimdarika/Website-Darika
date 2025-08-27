@@ -10,6 +10,7 @@ body{
     
     
 }
+
 body{
     overflow-x: hidden;
     }
@@ -88,15 +89,31 @@ body{
     width: 100%;
   
 }
+button{
+    width: 100px;
+}
 .home-content h2{
     font-size: 70px;
     color: rgb(255, 255, 255);
     font-family: a;
     display: flex;
-    padding: 0px 20px;
+    padding: 0px 400px;
     background-color: rgba(0, 0, 0, 0.233);
 }
-
+.home-content-a h1 {
+    font-size: 70px;
+    color: antiquewhite;
+    background-color: rgba(39, 39, 39, 0.418);
+    justify-content: center;
+    align-items: center;
+    padding:310px  300px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 330px;
+    
+    
+    
+}
 /* Content */
 .content-PNC{
     margin: 40px;
@@ -133,15 +150,6 @@ body{
     border-radius: 30px;
     margin: 1%; 
 }
-
-.flip-card-inner{
-    width:200px;
-    height:300px;
-}
-
-
-
-
 .card-values{
     display: flex;
     gap: 20px;
@@ -328,16 +336,17 @@ body{
     text-align: center;
     padding-top: 40px;
 }
-.image-arobic{
+.on{
     margin: 1%;
     display: flex;
+    gap: 70px;
 }
-.card-arabic{
+.in{
+    margin: 1%;
     display: flex;
+    gap: 70px;
 }
-.image-arobic-card{
-    width: 437px;
-}
+
 
 .form-section {
     background-color: #ffffff;
@@ -462,45 +471,6 @@ body{
     margin-top: 20px;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 220px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-  box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #ffffff;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -582,6 +552,13 @@ tr:nth-child(even):hover {
     padding-bottom: 40px;
     
 }
+.values-footer{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 20px;
+}
 .footer-pnc{
     margin-left: 200px;
     text-align: center;
@@ -620,11 +597,6 @@ tr:nth-child(even):hover {
 .paragraph-sport{
     margin-bottom: 20px;
 }
-
-
-
-
-
 
 
 /* Smartphones (portrait) ----------- */
@@ -666,9 +638,19 @@ tr:nth-child(even):hover {
     .image-arobic,
     .card-arabic,
     .card-sport {
-        flex-direction: column;
+
         align-items: center;
         text-align: center;
+    }
+    .image-arobic{
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .a{
+        width: 374px;
+        display: flex;
+        flex-wrap: wrap; 
     }
 
     .values-image,
@@ -679,7 +661,13 @@ tr:nth-child(even):hover {
         width: 90%;
         height: auto;
     }
-
+    .googl{
+        width: 70%;
+    }
+    .google{
+        width: 500px;
+        
+    }
     .Contact-text,
     .text-food h1,
     .home-content-food h1,
@@ -776,7 +764,21 @@ tr:nth-child(even):hover {
         justify-content: center;
         text-align: center
     }
+    .home-content-a h1 {
+    font-size:70px;
+    color: antiquewhite;
+    background-color: rgba(39, 39, 39, 0.418);
+    justify-content: center;
+    align-items: center;
+    padding:170px  220px;
+    padding-top: 580px;
+    justify-content: center;
+    text-align: center;
+    
+    
 
+    
+    }
  
     .image-arobic{
         padding-top: 60px;
@@ -816,14 +818,27 @@ tr:nth-child(even):hover {
     .footer-right{
         display: none;
     }
+    .a{
 
+        width: 250px;
+    }
+    .on{
+    margin: 1%;
+    display: flex;
+    gap: 31px;
+    }
+    .in{
+        margin: 1%;
+        display: flex;
+        gap: 31px;
+    }
 }
 
 /* For mobile phones */
 @media (min-width: 300px) and (max-width:600px){
    
     .title{
-        display: none;
+        padding: 200px;
     }
     body{
         font-size: 8px;
@@ -840,7 +855,10 @@ tr:nth-child(even):hover {
     }
     
     .navbar a {
-        display: none;
+        font-family: sans-serif;
+        font-size: 8px;
+    
+
     }
 
     .PNC-logo {
@@ -886,10 +904,19 @@ tr:nth-child(even):hover {
         height: auto;
     }
 
-    .home-content-food h1 {
-        font-size: 30px;
-        padding: 60px 20px;
+    .home-content-a h1 {
+    font-size: 50px;
+    color: antiquewhite;
+    background-color: rgba(39, 39, 39, 0.418);
+    justify-content: center;
+    align-items: center;
+    padding:220px  50px;
+    justify-content: center;
+    text-align: center;
+
+    
     }
+   
 
     .home-content-food p {
         font-size: 20px;
@@ -954,7 +981,7 @@ tr:nth-child(even):hover {
         display: none;
     }
     .footer-right{
-display: none;
+    display: none;
       
         
     }
@@ -965,5 +992,23 @@ display: none;
     .fip-card-front{
         height: 10vh;
         background-color: #ffffff;
+    }
+   
+    .google{
+        display: none;
+    }
+    .a{
+
+        width: 114px;
+    }
+    .on{
+    margin: 1%;
+    display: flex;
+    gap: 10px;
+    }
+    .in{
+        margin: 1%;
+        display: flex;
+        gap: 10px;
     }
 } 
